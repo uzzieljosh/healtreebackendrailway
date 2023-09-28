@@ -12,10 +12,10 @@ model = YOLO('Tilliabest.pt')
 
 other_model = ['Cherrybest.pt', 'fagusbest.pt', 'Quercusbest.pt', 'Thujabest.pt']
 
-otherclass =[{0:'Cherry_healthytrunk',1:'Cherry_gummosis',2:'Cherry_healthyleaf'},
-             {0:'Fagussylvatica_healthyleaf',1:'Fagussylvatica_leafscorch',2:'Fagussylvatica_leafspot'},
-             {0:'Quercuspetraea_gall',1:'Quercuspetraea_healthyleaf',2:'Quercuspetraea_healthytrunk',3:'Quercuspetraea_leafhole',4:'Quercuspetraea_leafscorch',5:'Quercuspetraea_leafspot',6:'Quercuspetraea_resinosis',7:'Quercuspetraea_shothole',8:'Quercuspetraea_wooddecay'},
-             {0:'Thujaoccidentalis_healthy',1:'Thujaoccidentalis_needleblight'}]
+otherclass =[{0:'Healthy Trunk',1:'Gummosis',2:'Healthy Leaf'},
+             {0:'Healthy Leaf',1:'Leaf Scorch',2:'Leaf Spot'},
+             {0:'Gall',1:'Healthy Leaf',2:'Healthy Trunk',3:'Leaf Hole',4:'Leaf Scorch',5:'Leaf Spot',6:'Resinosis',7:'Shot Hole',8:'Wood Decay'},
+             {0:'Healthy',1:'Needle Blight'}]
 
 othername = ['Cherry','Fagus sylvatica','Quercus petraea','Thuja occidentalis']
 
